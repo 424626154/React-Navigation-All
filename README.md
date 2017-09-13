@@ -31,6 +31,8 @@ AppRegistry.registerComponent('All', () => App);
 三：基于React-Native和Mobx的购物车
 
 https://github.com/erhutime/React-Navigation-All/blob/master/All/Screenshots/shoppingcar.gif
+
+
 下载完成后，修改index.ios.js:入口文件如下：
 
 import App from './jscode/shoppingcar/src/App'
