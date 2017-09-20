@@ -1,6 +1,8 @@
 import { AppRegistry } from 'react-native';
-//import App from './jscode/tabAll/App';
-import App from './jscode/tabOne/App'
+//import App from './jscode/tabOne/App'
+//import App from './jscode/shoppingcar/src/App'
+//import App from './jscode/themes/App'
+import App from './jscode/doubleList/App'
 
 
 global.__APP__ = true;
@@ -16,4 +18,5 @@ if (!__DEV__) {
     };
 }
 
+import App from './jscode/doubleList/App'
 AppRegistry.registerComponent('All', () => App);
