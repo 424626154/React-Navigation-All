@@ -40,3 +40,14 @@ import App from './jscode/shoppingcar/src/App'
 AppRegistry.registerComponent('All', () => App);
 
 即可运行
+
+
+
+四：左右联动List
+
+下载完成后，修改index.ios.js:入口文件如下：
+
+import App from './jscode/doubleList/App'
+AppRegistry.registerComponent('All', () => App);
+
+即可运行
